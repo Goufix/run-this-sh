@@ -36,7 +36,7 @@ function loadButton() {
     "run-this-shell.run", // id
     vscode.StatusBarAlignment.Left
   );
-  runButton.text = "Run this shell script";
+  runButton.text = "$(play) Run shell";
   runButton.command = "run-this-shell.run";
   runButton.show();
 

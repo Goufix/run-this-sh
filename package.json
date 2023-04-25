@@ -4,7 +4,7 @@
   "description": "Run current .sh file",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goufix/run_this_sh.git"
+    "url": "https://github.com/goufix/run-this-sh.git"
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "publisher": "Goufix",
@@ -15,7 +15,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:shellscript"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
